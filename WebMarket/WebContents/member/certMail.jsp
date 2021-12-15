@@ -15,8 +15,8 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 <title>이메일 인증</title>
 <%
-	String email=request.getParameter("email").trim();
-    String password=request.getParameter("emailPassword").trim();
+String email=request.getParameter("email").trim();
+String password=request.getParameter("emailPassword").trim();
 %>
 </head>
 <body>    
