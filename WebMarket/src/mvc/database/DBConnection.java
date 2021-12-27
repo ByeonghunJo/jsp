@@ -8,7 +8,8 @@ public class DBConnection {
  public static Connection getConnection() throws SQLException,ClassNotFoundException{
 	 Connection conn=null;
 	 
-		  String url="jdbc:mysql://localhost:3306/WebmarketDB"; String user="root";
+		  String url="jdbc:mysql://localhost:3306/WebmarketDB"; 
+		  String user="root";
 		  String password="1234";
 		  
 		  Class.forName("com.mysql.cj.jdbc.Driver");
