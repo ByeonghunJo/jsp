@@ -51,7 +51,7 @@
 <jsp:include page="footer.jsp"/>
 <div id="recentPanel" 
      class="card bg-light mb-3" 
-      style="position:fixed; max-width:18rem; top:55px; right:50px;">
+      style="position:fixed; width:50px; max-width:18rem; top:200px; right:200px;">
   <h5 class="card-header">최근 본 상품</h5>
   <div>
     <ul>
